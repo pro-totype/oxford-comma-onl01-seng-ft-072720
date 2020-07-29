@@ -36,10 +36,18 @@ def oxford_comma(array)
   end
 =======
 
-def oxford_comma(array)
+def oxford_comma(array)v2
 array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
  ki = array[0]
  puts ki
  
->>>>>>> 679a745e5342311ec8cf4ee0f332496b20615521
+end
+
+def oxford_comma(array)
+  if array.length == 2
+    return "#{array[0]} and #{array[1]}"
+  elsif 2 < array.length
+    array[-1].insert(0, "and ")
+  end
+  array.join(", ")    
 end
