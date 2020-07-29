@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 
 def method1
@@ -33,4 +34,12 @@ def oxford_comma(array)
   if array.length == 2 
     return array[0..1].to_a.join(" and ")
   end
+=======
+
+def oxford_comma(array)
+array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
+ ki = array[0]
+ puts ki
+ 
+>>>>>>> 679a745e5342311ec8cf4ee0f332496b20615521
 end
